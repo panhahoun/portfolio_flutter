@@ -48,7 +48,7 @@ const List<SkillGroup> kSkillGroups = [
     ChipItem([Seg('Git'), Seg(' / '), Seg('GitHub', bold: true)]),
     ChipItem([Seg('Postman')]),
     ChipItem([Seg('Docker')]),
-    ChipItem([Seg('VPS')]),
+    ChipItem([Seg('Render')]),
     ChipItem([Seg('Firebase Console')]),
     ChipItem([Seg('Android Studio')]),
     ChipItem([Seg('VS Code')]),
@@ -96,7 +96,7 @@ const List<Project> kProjects = [
       'WebSocket',
       'Gemini AI',
       'Flutter Web',
-      'VPS',
+      'Render',
     ],
     link: _gh,
   ),
@@ -106,6 +106,22 @@ const List<Project> kProjects = [
     roleKey: 'p3.role',
     bodyKeys: ['p3.b1', 'p3.b2', 'p3.b3'],
     tags: ['Flutter', 'FastAPI', 'SQLite', 'JWT', 'Chart.js'],
+    link: _gh,
+  ),
+  Project(
+    titleKey: 'p8.name',
+    taglineKey: 'p8.tagline',
+    roleKey: 'p8.role',
+    bodyKeys: ['p8.b1', 'p8.b2', 'p8.b3'],
+    tags: ['Flutter', 'GetX', 'FastAPI', 'Dio', 'JWT', 'i18n'],
+    link: _gh,
+  ),
+  Project(
+    titleKey: 'p9.name',
+    taglineKey: 'p9.tagline',
+    roleKey: 'p9.role',
+    bodyKeys: ['p9.b1', 'p9.b2', 'p9.b3'],
+    tags: ['Flutter', 'GetX', 'FastAPI', 'SQLAlchemy', 'PostgreSQL', 'JWT'],
     link: _gh,
   ),
   Project(
@@ -149,7 +165,7 @@ class StatItem {
 }
 
 const List<StatItem> kStats = [
-  StatItem('7+', 'stat.projects'),
+  StatItem('9+', 'stat.projects'),
   StatItem('2', 'stat.fullstack'),
   StatItem('100%', 'stat.scholarship'),
 ];

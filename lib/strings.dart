@@ -64,6 +64,24 @@ class Strings {
     'p3.b2':
         'FastAPI Backend: JWT & bcrypt authentication, automated fine calculations for overdue books, reservation workflows, and analytics reporting.',
     'p3.b3': 'Single-file web admin dashboard featuring Chart.js analytics and a guest portal.',
+    'p8.name': 'Fashion App — E-Commerce Mobile App',
+    'p8.tagline': 'Self-built · Flutter + FastAPI',
+    'p8.role': 'Solo Developer',
+    'p8.b1':
+        'Bilingual (English & Khmer) fashion store: product grid with debounced search, category filters & sort, and product detail with size & color selection.',
+    'p8.b2':
+        'Server-persisted per-user cart & favorites; checkout with shipping details and payment method; order history with expandable detail and status badges.',
+    'p8.b3':
+        'FastAPI backend over Dio with JWT auth and account, product & order REST APIs.',
+    'p9.name': 'Cosmetic Store — E-Commerce Mobile App',
+    'p9.tagline': 'Self-built · Flutter + FastAPI · deployed live',
+    'p9.role': 'Solo Developer',
+    'p9.b1':
+        'Bilingual (English & Khmer) cosmetics store: catalog of 16 products across 9 categories, search & sort, and product detail with variants.',
+    'p9.b2':
+        'Server-backed cart, wishlist, orders with a full status lifecycle, saved addresses, and payment methods (cash on delivery; KHQR-ready).',
+    'p9.b3':
+        'FastAPI + SQLAlchemy backend with Alembic migrations and JWT auth, deployed live on free cloud hosting (Render + Neon).',
     'p4.name': 'Bank Account Management',
     'p4.tagline': 'Individual exam · C# WinForms desktop app',
     'p4.role': 'Solo Developer',
@@ -157,7 +175,7 @@ class Strings {
     'p2.tagline': 'គម្រោងក្រុមនៅ ANT · Full-Stack',
     'p2.role': 'តួនាទី៖ អ្នកអភិវឌ្ឍន៍ Backend និង Web Admin Dashboard',
     'p2.b1':
-        'Backend (FastAPI + MongoDB)៖ ការចូលប្រើតាម JWT/OTP និង Social Auth, 80+ API endpoints, ប្រព័ន្ធគ្រប់គ្រងលំហូរស្ថានភាពពាក្យសុំ, Gemini AI Chat + ការផ្គូផ្គងអាហារូបករណ៍, ប្រព័ន្ធជូនដំណឹង Real-time (WebSocket + FCM Push) និងការ Deploy លើ VPS ជាមួយ Domain ផ្ទាល់ខ្លួន។',
+        'Backend (FastAPI + MongoDB)៖ ការចូលប្រើតាម JWT/OTP និង Social Auth, 80+ API endpoints, ប្រព័ន្ធគ្រប់គ្រងលំហូរស្ថានភាពពាក្យសុំ, Gemini AI Chat + ការផ្គូផ្គងអាហារូបករណ៍, ប្រព័ន្ធជូនដំណឹង Real-time (WebSocket + FCM Push) និងការដំណើរការលើ Free Hosting។',
     'p2.b2':
         'Admin Web Panel (Flutter Web)៖ Dashboard បង្ហាញ KPIs, គំនូសតាង Analytics, ការគ្រប់គ្រងដំណើរការពាក្យសុំ, ការ Export ទិន្នន័យជា CSV និងជំនួយការ AI។',
     'p2.b3':
@@ -170,6 +188,24 @@ class Strings {
     'p3.b2':
         'FastAPI Backend: ប្រព័ន្ធសុវត្ថិភាព JWT + bcrypt, ការគណនាប្រាក់ពិន័យការប្រគល់សៀវភៅយឺត, ការអនុម័តការកក់ និងរបាយការណ៍ស្ថិតិ។',
     'p3.b3': 'Web Admin Dashboard (Chart.js) និងវិបផតថលសម្រាប់ភ្ញៀវចូលមើល។',
+    'p8.name': 'កម្មវិធីទូរស័ព្ទហាងសម្លៀកបំពាក់ (Fashion App)',
+    'p8.tagline': 'គម្រោងផ្ទាល់ខ្លួន · Flutter + FastAPI',
+    'p8.role': 'អ្នកអភិវឌ្ឍន៍ទោល (Solo)',
+    'p8.b1':
+        'ហាងសម្លៀកបំពាក់ពីរភាសា (អង់គ្លេស/ខ្មែរ)៖ បញ្ជីផលិតផលជាមួយការស្វែងរក (Debounce), តម្រងតាមប្រភេទ & ការតម្រៀប និងទំព័រលម្អិតផលិតផលអមដោយការជ្រើសទំហំ & ពណ៌។',
+    'p8.b2':
+        'រទេះទិញទំនិញ & ចំណូលចិត្តរក្សាទុកលើ Server តាមអ្នកប្រើ; ការបង់ប្រាក់ជាមួយព័ត៌មានដឹកជញ្ជូន & វិធីបង់ប្រាក់; ប្រវត្តិការបញ្ជាទិញអមដោយលម្អិត & ស្ថានភាព។',
+    'p8.b3':
+        'Backend FastAPI ភ្ជាប់តាម Dio ជាមួយ JWT Auth និង REST API សម្រាប់គណនី ផលិតផល & ការបញ្ជាទិញ។',
+    'p9.name': 'កម្មវិធីទូរស័ព្ទហាងគ្រឿងសំអាង (Cosmetic Store)',
+    'p9.tagline': 'គម្រោងផ្ទាល់ខ្លួន · Flutter + FastAPI · ដំណើរការផ្ទាល់',
+    'p9.role': 'អ្នកអភិវឌ្ឍន៍ទោល (Solo)',
+    'p9.b1':
+        'ហាងគ្រឿងសំអាងពីរភាសា (អង់គ្លេស/ខ្មែរ)៖ បញ្ជីផលិតផល ១៦ មុខ ក្នុង ៩ ប្រភេទ, ការស្វែងរក & តម្រៀប និងទំព័រលម្អិតផលិតផល។',
+    'p9.b2':
+        'រទេះទិញទំនិញ, Wishlist, ការបញ្ជាទិញជាមួយលំហូរស្ថានភាពពេញលេញ, អាសយដ្ឋានដឹកជញ្ជូន & វិធីបង់ប្រាក់ (បង់ប្រាក់ពេលទទួលទំនិញ; ត្រៀម KHQR)។',
+    'p9.b3':
+        'Backend FastAPI + SQLAlchemy ជាមួយ Alembic Migrations និង JWT Auth ដំណើរការផ្ទាល់លើ Free Hosting (Render + Neon)។',
     'p4.name': 'កម្មវិធីគ្រប់គ្រងគណនីធនាគារ',
     'p4.tagline': 'ប្រឡងបុគ្គល · កម្មវិធី Desktop C# WinForms',
     'p4.role': 'អ្នកអភិវឌ្ឍន៍ទោល (Solo)',
