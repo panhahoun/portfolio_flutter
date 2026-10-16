@@ -40,13 +40,13 @@ class Strings {
     'projects.title': "Things I've Built",
     'p1.name': 'KOMNIT — Library Management App',
     'p1.tagline': 'Thesis project · Flutter mobile app',
-    'p1.role': 'My role: Frontend Lead (Flutter App)',
+    'p1.role': 'My role: Sole Flutter developer',
     'p1.b1':
         'Full bilingual support (English & Khmer), account lockout handling, forced password changes, avatar uploads, and email verification via OTP.',
     'p1.b2':
         'Book catalog with advanced search & filters, room reservation system with conflict detection, GPS-based library check-in, and Firebase/Telegram notifications.',
     'p1.b3':
-        'Built with GetX architecture (Binding → Controller → View), Dio JWT interceptors, and centralized session management — linter-clean code with passing unit tests.',
+        'Built with GetX architecture (Binding → Controller → View), Dio JWT interceptors, and centralized session management — linter-clean code with 13 passing unit tests.',
     'p2.name': 'NextGen-Scholars — Scholarship Platform',
     'p2.tagline': 'ANT team project · Full-stack',
     'p2.role': 'My role: Backend Lead & Admin Dashboard Developer',
@@ -164,7 +164,7 @@ class Strings {
     'projects.title': 'ស្នាដៃ និងគម្រោង',
     'p1.name': 'KOMNIT — កម្មវិធីគ្រប់គ្រងបណ្ណាល័យ',
     'p1.tagline': 'គម្រោងសារណាបញ្ចប់ការសិក្សា · កម្មវិធីទូរស័ព្ទ Flutter',
-    'p1.role': 'តួនាទី៖ អ្នកអភិវឌ្ឍន៍កម្មវិធីទូរស័ព្ទ (Flutter Mobile App)',
+    'p1.role': 'តួនាទី៖ អ្នកអភិវឌ្ឍន៍ Flutter តែម្នាក់ឯង',
     'p1.b1':
         'គាំទ្រពីរភាសា (អង់គ្លេស និងខ្មែរ), ប្រព័ន្ធចាក់សោគណនី, ការបង្ខំប្តូរពាក្យសម្ងាត់, ការផ្លាស់ប្តូររូបភាពប្រវត្តិរូប (Avatar) និងការប្តូរអ៊ីមែលដោយប្រើកូដផ្ទៀងផ្ទាត់ OTP។',
     'p1.b2':

@@ -38,6 +38,7 @@ const List<SkillGroup> kSkillGroups = [
   SkillGroup('skills.g3', [
     ChipItem([Seg('MongoDB', bold: true)]),
     ChipItem([Seg('SQLite')]),
+    ChipItem([Seg('PostgreSQL')]),
     ChipItem([Seg('REST API')]),
     ChipItem([Seg('JWT / OTP Auth')]),
     ChipItem([Seg('Social Login')]),
@@ -166,7 +167,7 @@ class StatItem {
 
 const List<StatItem> kStats = [
   StatItem('9+', 'stat.projects'),
-  StatItem('2', 'stat.fullstack'),
+  StatItem('4', 'stat.fullstack'),
   StatItem('100%', 'stat.scholarship'),
 ];
 
